@@ -1,4 +1,4 @@
-import styles from '../Hero/HeroStyles.module.css';
+import styles from './HeroStyles.module.css';
 import heroImg from '../../assets/hero-img.png'; 
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
@@ -20,7 +20,7 @@ function Hero() {
   const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
 
   return (
-    <section id='hero' className={styles.Container}>
+    <section id='hero' className={styles.container}>
       <div className={styles.colorModeContainer}>
         <img
          className={styles.hero}
@@ -41,18 +41,17 @@ function Hero() {
           </h1>
           <h2>Frontend Developer</h2>
           <span>
-            <a href="https://twitter.com/" target='_blank'>
+            <a href="https://x.com/fikrifaizalha" target='_blank'>
               <img src={twitterIcon} alt='Twitter icon' />
             </a>
-            <a href="https://github.com/" target='_blank'>
+            <a href="https://github.com/Fikrifaizalha" target='_blank'>
               <img src={githubIcon} alt='Github icon' />
             </a>
-            <a href="https://linkedin.com/" target='_blank'>
+            <a href="https://www.linkedin.com/in/fikri-faizal-hamzah-alfa-iz-7b21061a5/" target='_blank'>
               <img src={linkedinIcon} alt='Linkedin icon' />
             </a>
           </span>
-          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex est magni saepe dicta consequuntur!
-             Odit dolorum quaerat minima, unde quis molestias, fugiat mollitia molestiae necessitatibus hic recusandae. Quae, quia officia!
+          <p> Too weird to live, too rare to die!
           </p>
           <a href={CV} download>
             <button className='hover'>Resume</button>
