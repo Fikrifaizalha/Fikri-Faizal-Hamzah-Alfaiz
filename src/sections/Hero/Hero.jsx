@@ -39,7 +39,7 @@ function Hero() {
           <br /> 
           Hamzah Alfaiz
           </h1>
-          <h2>Frontend Developer</h2>
+          <h2>Junior Developer</h2>
           <span>
             <a href="https://x.com/fikrifaizalha" target='_blank'>
               <img src={twitterIcon} alt='Twitter icon' />
@@ -51,7 +51,9 @@ function Hero() {
               <img src={linkedinIcon} alt='Linkedin icon' />
             </a>
           </span>
-          <p> Too weird to live, too rare to die!
+          <p> What matters most in this course <br/> 
+           is not where you stand compared<br/>to your classmates,<br/>
+           but rather where you stand compared to yourself when you start.
           </p>
           <a href={CV} download>
             <button className='hover'>Resume</button>
