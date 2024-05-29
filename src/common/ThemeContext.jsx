@@ -1,9 +1,10 @@
-import React, { createContext, useContext, useEffect, useState} from 'react';
-
-
+// eslint-disable-next-line no-unused-vars
+import React, { createContext, useContext, useEffect, useState } from 'react';
+import PropTypes from 'prop-types';
 
 const ThemeContext = createContext();
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const useTheme = () => useContext(ThemeContext);
 
 export const ThemeProvider = ({ children }) => {
@@ -27,3 +28,6 @@ export const ThemeProvider = ({ children }) => {
     );
 };
 
+ThemeProvider.propTypes = {
+    children: PropTypes.node.isRequired,
+};
