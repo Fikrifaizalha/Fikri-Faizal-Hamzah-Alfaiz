@@ -1,5 +1,8 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
+import redVelvet from '../../assets/rv.png';
+import npureProject from '../../assets/np.png';
+import polygon from '../../assets/Polygon.png';
+import npure from '../../assets/Npure.png';
 import ProjectCard from '../../common/ProjectCard';
 
 
@@ -11,10 +14,28 @@ function Projects() {
       <h1 className='sectionTitle'>Projects</h1>
       <div className={styles.projectsContainer}>
       <ProjectCard
-       src={viberr}
+       src={redVelvet}
        link= 'https://github.com/Fikrifaizalha/Website-Red-Velvet'
-       h3="Viberr"
-       p="Streaming App"
+       h3="Red Velvet"
+       p="Profile Website"
+       />
+        <ProjectCard
+       src={npureProject}
+       link= 'https://github.com/Fikrifaizalha/npure'
+       h3="Npure"
+       p=" E-Commerce Website"
+       />
+        <ProjectCard
+       src={polygon}
+       link= 'https://dribbble.com/shots/24153182-Website-Mobile-Design'
+       h3="Polygon"
+       p="Website & Mobile Design"
+       />
+        <ProjectCard
+       src={npure}
+       link= 'https://dribbble.com/shots/24152492-Mobile-App-UI'
+       h3="Npure"
+       p="Mobile App Design"
        />
       </div>
     </section>
