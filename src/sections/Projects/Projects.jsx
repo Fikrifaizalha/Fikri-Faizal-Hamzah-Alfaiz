@@ -1,6 +1,6 @@
 import styles from './ProjectsStyles.module.css';
 import redVelvet from '../../assets/rv.png';
-import npureProject from '../../assets/np.png';
+import ecommerce from '../../assets/np.png';
 import polygon from '../../assets/Polygon.png';
 import npure from '../../assets/npure.png';
 import ProjectCard from '../../common/ProjectCard';
@@ -20,16 +20,16 @@ function Projects() {
        p="Profile Website"
        />
         <ProjectCard
-       src={npureProject}
+       src={ecommerce}
        link= 'https://github.com/Fikrifaizalha/npure'
        h3="Npure"
-       p=" E-Commerce Website"
+       p="E-Commerce Website"
        />
         <ProjectCard
        src={polygon}
        link= 'https://dribbble.com/shots/24153182-Website-Mobile-Design'
        h3="Polygon"
-       p="App Design"
+       p="Website & App Design"
        />
         <ProjectCard
        src={npure}
