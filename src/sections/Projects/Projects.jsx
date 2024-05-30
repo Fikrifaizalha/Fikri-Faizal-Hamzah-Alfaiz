@@ -2,7 +2,7 @@ import styles from './ProjectsStyles.module.css';
 import redVelvet from '../../assets/rv.png';
 import ecommerce from '../../assets/np.png';
 import polygon from '../../assets/Polygon.png';
-import npure from '../../assets/uidesign.png';
+import uidesign from '../../assets/uidesign.png';
 import ProjectCard from '../../common/ProjectCard';
 
 
@@ -32,7 +32,7 @@ function Projects() {
        p="Website & App Design"
        />
         <ProjectCard
-       src={npure}
+       src={uidesign}
        link= 'https://dribbble.com/shots/24152492-Mobile-App-UI'
        h3="Npure"
        p="Mobile App Design"
