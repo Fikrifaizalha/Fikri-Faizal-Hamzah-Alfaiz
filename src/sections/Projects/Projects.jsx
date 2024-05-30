@@ -22,7 +22,7 @@ function Projects() {
         <ProjectCard
        src={ecommerce}
        link= 'https://github.com/Fikrifaizalha/npure'
-       h3="Npure"
+       h3="Skintific"
        p="E-Commerce Website"
        />
         <ProjectCard
