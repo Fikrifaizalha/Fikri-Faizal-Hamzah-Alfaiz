@@ -11,7 +11,7 @@ form {
 }
 
 textarea, 
-input:not([type="submit"]) {
+input:not([type='submit']) {
     height: 50px;
     padding-left: 16px;
     width: 250px;
@@ -22,21 +22,21 @@ textarea {
     resize: none;
     height: 250px;
 }
-input,
-textarea {
+
+input, textarea{
     border-radius: 20px;
     border: #888 1px solid;
     box-sizing: border-box;
     justify-self: center;
-    background-color: var(--background-color);
+    background-color: var(--bacground-color);
     color: var(--form-text-color);
 }
 
 ::placeholder {
-    color: var(--form-text-color)
+    color: var(--form-text-color);
 }
 
-input[type="submit"] {
+input[type='submit'] {
     background-color: var(--btn-color);
     color: var(--btn-text-color);
     border: none;
@@ -50,13 +50,18 @@ input[type="submit"] {
     margin: auto;
 }
 
-input[type="submit"]:hover {
+input[type='submit']:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
     transform: scale(1.05);
 }
 
-input[type="submit"]:active {
+input[type='submit']:active {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     transform: translateY(2px);
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+a:hover {
+    transform: scale(1.05);
 }
 
 @media (width >= 800px) {
