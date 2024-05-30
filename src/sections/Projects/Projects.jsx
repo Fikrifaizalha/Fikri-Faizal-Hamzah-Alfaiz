@@ -2,7 +2,7 @@ import styles from './ProjectsStyles.module.css';
 import redVelvet from '../../assets/rv.png';
 import ecommerce from '../../assets/np.png';
 import polygon from '../../assets/Polygon.png';
-import npure from '../../assets/npure.png';
+import npure from '../../assets/uidesign.png';
 import ProjectCard from '../../common/ProjectCard';
 
 
