@@ -9,7 +9,7 @@
 }
 
 [data-theme='dark'] {
-    --bacground-color: #222;
+    --background-color: #222;
     --btn-color: #fff;
     --btn-text-color: #222;
     --project-card-bg: #fff;
@@ -19,7 +19,7 @@
 }
 
 body {
-    background-color: var(--bacground-color);
+    background-color: var(--background-color);
     display: flex;
     justify-content: center;
     margin: 0 auto 60px;
