@@ -29,7 +29,7 @@ function Projects() {
        src={polygon}
        link= 'https://dribbble.com/shots/24153182-Website-Mobile-Design'
        h3="Polygon"
-       p="Website & Mobile App Design"
+       p="App Design"
        />
         <ProjectCard
        src={npure}
