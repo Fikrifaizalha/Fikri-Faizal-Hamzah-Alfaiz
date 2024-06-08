@@ -35,7 +35,7 @@ function Hero() {
          />
       </div>
       <div className={styles.info}>
-        <h1>Fikri Faizal Hamzah</h1>
+        <h1>Fikri Faizal <br/> Hamzah Alfaiz</h1>
           <h2>Junior Developer</h2>
           <span>
             <a href="https://x.com/fikrifaizalha" target='_blank'>
@@ -48,8 +48,8 @@ function Hero() {
               <img src={linkedinIcon} alt='Linkedin icon' />
             </a>
           </span>
-          <p>Passionate junior developer with a strong foundation<br/>
-           in JavaScript, HTML and CSS.<br/>
+          <p>Passionate junior developer with a strong foundation in<br/>
+           JavaScript, HTML and CSS.<br/>
            eager to leverage my skills in<br/>
            front-end development friendly web applications.<br/>
            
