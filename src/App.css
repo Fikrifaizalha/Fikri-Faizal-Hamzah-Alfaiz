@@ -68,6 +68,10 @@ p{
     cursor: pointer;
 }
 
+.sectionTitle {
+    margin-bottom: 30px ;
+}
+
 
 
 /* Media Quary  */

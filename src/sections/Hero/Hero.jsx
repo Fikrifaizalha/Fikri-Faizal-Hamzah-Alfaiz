@@ -48,10 +48,11 @@ function Hero() {
               <img src={linkedinIcon} alt='Linkedin icon' />
             </a>
           </span>
-          <p> Passionate junior developer with a strong foundation <br/>
-           in JavaScript, HTML, and CSS, <br/>
-           learning and excited to contribute to innovative projects <br/>
-           in a dynamic team environment.
+          <p>Passionate junior developer with a strong foundation<br/>
+           in JavaScript, HTML and CSS.<br/>
+           eager to leverage my skills in<br/>
+           front-end development friendly web applications.<br/>
+           
           </p>
           <a href={CV} download>
             <button className='hover'>Download CV</button>
