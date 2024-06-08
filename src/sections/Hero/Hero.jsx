@@ -35,10 +35,7 @@ function Hero() {
          />
       </div>
       <div className={styles.info}>
-        <h1>Fikri Faizal 
-          <br /> 
-          Hamzah Alfaiz
-          </h1>
+        <h1>Fikri Faizal Hamzah</h1>
           <h2>Junior Developer</h2>
           <span>
             <a href="https://x.com/fikrifaizalha" target='_blank'>
@@ -51,12 +48,13 @@ function Hero() {
               <img src={linkedinIcon} alt='Linkedin icon' />
             </a>
           </span>
-          <p> What matters most in this course <br/> 
-           is not where you stand compared<br/>to your classmates,<br/>
-           but rather where you stand compared to yourself when you start.
+          <p> Passionate junior developer with a strong foundation <br/>
+           in JavaScript, HTML, and CSS, <br/>
+           learning and excited to contribute to innovative projects <br/>
+           in a dynamic team environment.
           </p>
           <a href={CV} download>
-            <button className='hover'>Resume</button>
+            <button className='hover'>Download CV</button>
           </a>
       </div>
     </section>
